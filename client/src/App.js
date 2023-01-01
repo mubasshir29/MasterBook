@@ -5,7 +5,7 @@ import Home from './Homepage/Home';
 import Navbar from './Navbar/Navbar';
 import {Routes, Route, Outlet} from 'react-router-dom'
 import InternetAccounts from './InternetAccounts/InternetAccounts';
-import BranchConnections from './BranchConnections/BranchConnections'
+import NetworkDiagrams from './NetworkDiagrams/NetworkDiagrams';
 
 
 function App() {
@@ -17,6 +17,9 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='internet-accounts' element={<InternetAccounts/>}>
             <Route path=':id' element={<InternetAccounts/>} />
+          </Route>
+          <Route path='diagrams' element={<NetworkDiagrams/>}>
+            <Route path=':id' element={<NetworkDiagrams/>}/>
           </Route>
       </Routes>
         <Outlet/>

@@ -27,10 +27,12 @@
 .sidebar-item .sidebar-content{
     height: 0;
     opacity: 0;
+    display: none;
     transition: height 0.15s ease-out;
 }
 
 .sidebar-item.open .sidebar-content{
+    display: block;
     font-size: 15px;
     width: 50%;
     height: auto;

@@ -1,0 +1,22 @@
+[
+    {
+        "location": "Branch A",
+        "branch":"a",
+        "image" : "https://www.pngitem.com/pimgs/m/33-335785_network-diagram-computer-science-hd-png-download.png"
+    },
+    {
+        "location": "Branch B",
+        "branch":"b",
+        "image" : "http://techiestudent.me/wp-content/uploads/2021/09/MIS101-network-topology.jpg"
+    },
+    {
+        "location": "Branch C",
+        "branch":"c",
+        "image" : "https://www.firewall.cx/media/kunena/attachments/22173/CampusNetwork.png"
+    },
+    {
+        "location": "Branch D",
+        "branch":"d",
+        "image" : "https://wcs.smartdraw.com/network-diagram/img/network-diagram-example-enterprise-network-architecture.png?bn=15100111860"
+    }
+]

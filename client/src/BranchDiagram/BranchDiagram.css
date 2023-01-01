@@ -1,0 +1,14 @@
+.container{
+    padding: 10px 25px ;
+    max-width: 100%;
+}
+.b_diagram_content p{
+    margin: 0;
+}
+.b_diagram_content img{
+    width: 70vw;
+    height: auto;
+    object-fit: cover;
+    margin-top: 15px;
+    border-radius: 15px;
+}

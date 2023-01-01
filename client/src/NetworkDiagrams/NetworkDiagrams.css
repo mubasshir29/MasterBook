@@ -1,4 +1,4 @@
-.internet_content{
+.diagram_content{
     position: absolute;
     top: 8vh;
     left: 16vw;
@@ -7,12 +7,11 @@
     font-size: 36px;
     color: black;
     overflow-x: hidden;
-    
 }
 .title{
     background-color: #FAF7FF;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 15px 25px;
     font-weight: bold;
     width: 100%;
 }
