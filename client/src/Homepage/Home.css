@@ -1,0 +1,8 @@
+.homepage_content{
+    position: absolute;
+    top: 8vh;
+    left: 244px;
+    max-width: calc(100% -244px);
+    font-size: 36px;
+    color: black;
+}

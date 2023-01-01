@@ -1,0 +1,10 @@
+.App{
+    height: 100%;
+    width: 100%;
+    
+}
+.outlet_content{
+    position: relative;
+    margin-left: 244px;
+    background-color: aqua;
+}

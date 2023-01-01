@@ -1,0 +1,79 @@
+[
+    {
+        "title": "Internet Accounts",
+        "icon": "bi bi-globe2",
+        "path":"/internet-accounts",
+        "childrens": [
+            {
+                "title": "Branch Office A",
+                "icon": "bi-house-fill",
+                "path": "/internet-accounts/a"
+            },
+            {
+                "title": "Branch Office B",
+                "icon": "bi-info-circle-fill",
+                "path": "/internet-accounts/b"
+            },
+            {
+                "title": "Branch Office C",
+                "icon": "bi-phone-fill",
+                "path": "/internet-accounts/c"
+            },
+            {
+                "title": "Branch Office D",
+                "icon": "bi-phone-fill",
+                "path": "/internet-accounts/d"
+            }
+        ]
+    },
+    {
+        "title": "Network Diagrams",
+        "icon": "bi bi-hdd-network",
+        "childrens": [
+            {
+                "title": "Branch Office A",
+                "path": "/login"
+            },
+            {
+                "title": "Branch Office B",
+                "path": "/register"
+            },
+            {
+                "title": "Branch Office C",
+                "path": "/forgot-password"
+            },
+            {
+                "title": "Branch Office D",
+                "path": "/reset-password"
+            }
+        ]
+    },
+    {
+        "title": "DC Devices",
+        "icon": "bi-hdd-rack",
+        "childrens": [
+            {
+                "title": "Active",
+                "path": "/profile"
+            },
+            {
+                "title": "Passive",
+                "path": "/logout"
+            }
+        ]
+    },
+    {
+        "title": "Firewalls",
+        "icon": "bi bi-fire",
+        "childrens": [
+            {
+                "title": "Branch Office A",
+                "path": "/search"
+            },
+            {
+                "title": "Branch Office B",
+                "path": "/history"   
+            }
+        ]
+    }
+]

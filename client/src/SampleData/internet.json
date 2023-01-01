@@ -1,0 +1,103 @@
+[
+    {
+        "location": "Branch A",
+        "branch":"a",
+        "connections" : [
+            {
+                "provider":"Etisalat",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Du",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    },
+    {
+        "location": "Branch B",
+        "branch":"b",
+        "connections" : [
+            {
+                "provider":"Airtel",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Jio",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    },
+    {
+        "location": "Branch C",
+        "branch":"c",
+        "connections" : [
+            {
+                "provider":"PTCL",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"BSNL",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Zong",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    }
+    ,
+    {
+        "location": "Branch D",
+        "branch":"d",
+        "connections" : [
+            {
+                "provider":"Etisalat",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Etisalat",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    }
+    
+    
+    
+
+]
