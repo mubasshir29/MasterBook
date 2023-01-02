@@ -76,5 +76,97 @@
                 "path": "/history"   
             }
         ]
+    },
+    {
+        "title": "Switches",
+        "icon": "bi bi-router",
+        "path":"/switches",
+        "childrens": [
+            {
+                "title": "Branch Office A",
+                "path": "/switches/a"
+            },
+            {
+                "title": "Branch Office B",
+                "path": "/switches/b"   
+            },
+            {
+                "title": "Branch Office C",
+                "path": "/switches/c"
+            },
+            {
+                "title": "Branch Office D",
+                "path": "/switches/d"   
+            }
+        ]
+    },
+    {
+        "title": "Wireless Network",
+        "icon": "bi bi-wifi",
+        "path":"/wireless",
+        "childrens": [
+            {
+                "title": "Branch Office A",
+                "path": "/wireless/a"
+            },
+            {
+                "title": "Branch Office B",
+                "path": "/wireless/b"   
+            },
+            {
+                "title": "Branch Office C",
+                "path": "/wireless/c"
+            },
+            {
+                "title": "Branch Office D",
+                "path": "/wireless/d"   
+            }
+        ]
+    },
+    {
+        "title": "Office Devices",
+        "icon": "bi bi-pc-display-horizontal",
+        "path":"/devices",
+        "childrens": [
+            {
+                "title": "Branch Office A",
+                "path": "/devices/a"
+            },
+            {
+                "title": "Branch Office B",
+                "path": "/devices/b"   
+            },
+            {
+                "title": "Branch Office C",
+                "path": "/devices/c"
+            },
+            {
+                "title": "Branch Office D",
+                "path": "/devices/d"   
+            }
+        ]
+    },
+    {
+        "title": "Office Softwares",
+        "icon": "bi bi-window-stack",
+        "path":"/softwares",
+        "childrens": [
+            {
+                "title": "Branch Office A",
+                "path": "/softwares/a"
+            },
+            {
+                "title": "Branch Office B",
+                "path": "/softwares/b"   
+            },
+            {
+                "title": "Branch Office C",
+                "path": "/softwares/c"
+            },
+            {
+                "title": "Branch Office D",
+                "path": "/softwares/d"   
+            }
+        ]
     }
 ]

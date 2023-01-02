@@ -6,6 +6,7 @@ import Navbar from './Navbar/Navbar';
 import {Routes, Route, Outlet} from 'react-router-dom'
 import InternetAccounts from './InternetAccounts/InternetAccounts';
 import NetworkDiagrams from './NetworkDiagrams/NetworkDiagrams';
+import AllSwitches from './AllSwitches/AllSwitches';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path='diagrams' element={<NetworkDiagrams/>}>
             <Route path=':id' element={<NetworkDiagrams/>}/>
+          </Route>
+          <Route path='switches' element={<AllSwitches/>}>
+            <Route path=':id' element={<AllSwitches/>}/>
           </Route>
       </Routes>
         <Outlet/>
