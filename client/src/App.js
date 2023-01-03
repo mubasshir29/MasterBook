@@ -9,6 +9,7 @@ import NetworkDiagrams from './NetworkDiagrams/NetworkDiagrams';
 import AllSwitches from './AllSwitches/AllSwitches';
 import Wireless from './Wireless/Wireless';
 import AllSoftwares from './AllSoftwares/AllSoftwares';
+import AllFirewalls from './AllFirewalls/AllFirewalls';
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path='diagrams' element={<NetworkDiagrams/>}>
             <Route path=':id' element={<NetworkDiagrams/>}/>
+          </Route>
+          <Route path='firewalls' element={<AllFirewalls/>}>
+            <Route path=':id' element={<AllFirewalls/>}/>
           </Route>
           <Route path='switches' element={<AllSwitches/>}>
             <Route path=':id' element={<AllSwitches/>}/>

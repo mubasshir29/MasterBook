@@ -66,14 +66,23 @@
     {
         "title": "Firewalls",
         "icon": "bi bi-fire",
+        "path":"/firewalls",
         "childrens": [
             {
                 "title": "Branch Office A",
-                "path": "/search"
+                "path": "/firewalls/a"
             },
             {
                 "title": "Branch Office B",
-                "path": "/history"   
+                "path": "/firewalls/b"   
+            },
+            {
+                "title": "Branch Office C",
+                "path": "/firewalls/c"
+            },
+            {
+                "title": "Branch Office D",
+                "path": "/firewalls/d"   
             }
         ]
     },
