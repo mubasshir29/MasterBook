@@ -7,6 +7,8 @@ import {Routes, Route, Outlet} from 'react-router-dom'
 import InternetAccounts from './InternetAccounts/InternetAccounts';
 import NetworkDiagrams from './NetworkDiagrams/NetworkDiagrams';
 import AllSwitches from './AllSwitches/AllSwitches';
+import Wireless from './Wireless/Wireless';
+import AllSoftwares from './AllSoftwares/AllSoftwares';
 
 
 function App() {
@@ -24,6 +26,12 @@ function App() {
           </Route>
           <Route path='switches' element={<AllSwitches/>}>
             <Route path=':id' element={<AllSwitches/>}/>
+          </Route>
+          <Route path='wireless' element={<Wireless/>}>
+            <Route path=':id' element={<Wireless/>}/>
+          </Route>
+          <Route path='softwares' element={<AllSoftwares/>}>
+            <Route path=':id' element={<AllSoftwares/>}/>
           </Route>
       </Routes>
         <Outlet/>
