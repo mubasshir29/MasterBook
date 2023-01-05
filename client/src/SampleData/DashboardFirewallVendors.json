@@ -1,0 +1,14 @@
+[
+    {
+        "vendor":"Sonicwall",
+        "count":"3"
+    },
+    {
+        "vendor":"Fortinet",
+        "count":"4"
+    },
+    {
+        "vendor":"Palo Alto",
+        "count":"2"
+    }
+]

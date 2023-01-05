@@ -1,6 +1,7 @@
 .container{
-    margin: 15px 30px 15px 0px;
-    max-width: 100%;
+    padding: 10px 25px ;
+    width: 84vw;
+    max-width: 84vw;
 }
 .branch_name{
     color: #3E3250;
