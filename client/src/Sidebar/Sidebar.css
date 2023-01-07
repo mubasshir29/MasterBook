@@ -1,4 +1,5 @@
 .sidebar_content{
+    scrollbar-width: none;
     position: fixed;
     left: 0;
     top: 8vh;
@@ -6,9 +7,10 @@
     background-color: #53436A;
     color: white;
     width: 16vw;
-    padding: 15px 10px;
-    height: 100%;
+    padding: 15px 10px 80px 10px;
+    height: 100vh;
     overflow: auto;
+    font-size: 0.9rem;
 }
 .searchbar_content i{
     display: inline;

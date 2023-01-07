@@ -5,22 +5,22 @@
         "path":"/internet-accounts",
         "childrens": [
             {
-                "title": "Branch Office A",
+                "title": "Branch A",
                 "icon": "bi-house-fill",
                 "path": "/internet-accounts/a"
             },
             {
-                "title": "Branch Office B",
+                "title": "Branch B",
                 "icon": "bi-info-circle-fill",
                 "path": "/internet-accounts/b"
             },
             {
-                "title": "Branch Office C",
+                "title": "Branch C",
                 "icon": "bi-phone-fill",
                 "path": "/internet-accounts/c"
             },
             {
-                "title": "Branch Office D",
+                "title": "Branch D",
                 "icon": "bi-phone-fill",
                 "path": "/internet-accounts/d"
             }
