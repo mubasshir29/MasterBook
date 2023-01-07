@@ -6,7 +6,7 @@ function BranchDiagram({item}) {
     <div className='container'>
       <p className='branch_name'>{item.location}</p>
       <div className='b_diagram_content'>
-          <img src={item.image} />
+          <img src={item.assets.network_diagram.img} />
       </div>
     </div>
   )

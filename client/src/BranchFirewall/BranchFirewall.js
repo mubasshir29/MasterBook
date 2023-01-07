@@ -16,7 +16,7 @@ function BranchFirewall({item}) {
                       </tr>
                     </thead>
                     <tbody>
-                    {item.firewalls.map((entry,index)=>(
+                    {item.assets.firewalls.map((entry,index)=>(
                       <tr>
                         <td>{entry.name}</td>
                         <td>{entry.model}</td>

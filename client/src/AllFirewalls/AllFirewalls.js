@@ -1,8 +1,9 @@
 import React from 'react'
 import './AllFirewalls.css'
-import Firewalls from './../SampleData/firewalls.json'
 import BranchFirewall from '../BranchFirewall/BranchFirewall'
 import { useParams } from 'react-router-dom'
+import data from './../SampleData/masterbookData.json'
+
 
 function AllFirewalls() {
     const params = useParams()
@@ -11,14 +12,14 @@ function AllFirewalls() {
     return (
       <div className='switches_content'>
           <div className='title'>
-          Network Switches
+          Firewalls
           </div>
           
-          {id?Firewalls.map(item => {
-            if(item.branch == id){
+          {id?data.map(item => {
+            if(item.branch_code == id){
               return <BranchFirewall item={item}/>
             }
-          }):Firewalls.map((item,index) => <BranchFirewall key={index} item={item}/>)}
+          }):data.map((item,index) => <BranchFirewall key={index} item={item}/>)}
           
       </div>
     )

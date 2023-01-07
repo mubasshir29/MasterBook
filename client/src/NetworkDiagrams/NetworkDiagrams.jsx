@@ -3,6 +3,7 @@ import './NetworkDiagrams.css'
 import diagrams from './../SampleData/diagrams.json'
 import BranchDiagram from '../BranchDiagram/BranchDiagram'
 import { useParams } from 'react-router-dom'
+import data from './../SampleData/masterbookData.json'
 
 function NetworkDiagrams() {
   const params = useParams()
@@ -14,11 +15,11 @@ function NetworkDiagrams() {
         Network Diagrams
         </div>
         {id?
-        diagrams.map(item => {
-          if(item.branch == id){ 
+        data.map(item => {
+          if(item.branch_code == id){ 
           return <BranchDiagram item={item} />
         }
-        }) :diagrams.map(item => <BranchDiagram item={item} />)}
+        }) :data.map(item => <BranchDiagram item={item} />)}
     </div>
     
   )

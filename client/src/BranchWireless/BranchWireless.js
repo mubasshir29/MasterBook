@@ -2,7 +2,6 @@ import React from 'react'
 import './BranchWireless.css'
 
 function BranchWireless({item}) {
-    console.log(item)
   return (
     <div className='container'>
     <p className='branch_name'>{item.location}</p>
@@ -18,12 +17,14 @@ function BranchWireless({item}) {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>{item.controller.name}</td>
-                            <td>{item.controller.ip}</td>
-                            <td>{item.controller.model}</td>
-                            <td>{item.controller.software}</td>
+                        {item.assets.wireless.controllers.map(wlc => (
+                            <tr>
+                            <td>{wlc.name}</td>
+                            <td>{wlc.ip}</td>
+                            <td>{wlc.model}</td>
+                            <td>{wlc.software}</td>
                         </tr>
+                        ))}
                     </tbody>
                 </table>
             </div>
@@ -41,7 +42,7 @@ function BranchWireless({item}) {
                         </tr>
                     </thead>
                     <tbody>
-                        {item.access_points.map(entry =>(
+                        {item.assets.wireless.access_points.map(entry =>(
                             <tr>
                                 <td>{entry.ap_name}</td>
                                 <td>{entry.ap_ip}</td>
@@ -64,7 +65,7 @@ function BranchWireless({item}) {
                         </tr>
                     </thead>
                     <tbody>
-                        {item.ssids.map(entry =>(
+                        {item.assets.wireless.ssids.map(entry =>(
                             <tr>
                                 <td>{entry.name}</td>
                                 <td>{entry.password}</td>

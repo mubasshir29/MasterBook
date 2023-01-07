@@ -16,7 +16,7 @@ function BranchSoftwares({item}) {
                   </tr>
                 </thead>
                 <tbody>
-                {item.softwares.map((entry,index)=>(
+                {item.assets.softwares.map((entry,index)=>(
                   <tr>
                     <td>{entry.name}</td>
                     <td>{entry.access_url}</td>

@@ -1,8 +1,9 @@
 import React from 'react'
 import './AllSoftwares.css'
-import Softwares from './../SampleData/softwares.json'
 import BranchSoftwares from '../BranchSoftwares/BranchSoftwares'
 import { useParams } from 'react-router-dom'
+import data from './../SampleData/masterbookData.json'
+
 
 function AllSoftwares() {
     const params = useParams()
@@ -14,11 +15,11 @@ function AllSoftwares() {
           Softwares
           </div>
           
-          {id?Softwares.map(item => {
-            if(item.branch == id){
+          {id?data.map(item => {
+            if(item.branch_code == id){
               return <BranchSoftwares item={item}/>
             }
-          }):Softwares.map((item,index) => <BranchSoftwares key={index} item={item}/>)}
+          }):data.map((item,index) => <BranchSoftwares key={index} item={item}/>)}
           
       </div>
     )

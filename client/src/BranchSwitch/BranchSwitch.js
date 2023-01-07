@@ -17,7 +17,7 @@ function BranchSwitch({item}) {
                   </tr>
                 </thead>
                 <tbody>
-                {item.switches.map((entry,index)=>(
+                {item.assets.switches.map((entry,index)=>(
                   <tr>
                     <td>{entry.switch_name}</td>
                     <td>{entry.ip_address}</td>

@@ -1,14 +1,12 @@
 import React from 'react'
 import './ConnectionDetails.css'
-import { useParams } from 'react-router-dom'
 
 function ConnectionDetails({item}) {
-    const params = useParams()
   return (
     <div className='container'>
     <p className='branch_name'>{item.location}</p>
         <div className='connection_cards'>
-        {item.connections.map((entry,index)=>(
+        {item.assets.internet_accounts.map((entry,index)=>(
             <div className='connection_content'>
             <table>
                 <tr>
